@@ -98,7 +98,7 @@
             // 
             // btnReportes
             // 
-            this.btnReportes.BackColor = System.Drawing.Color.SteelBlue;
+            this.btnReportes.BackColor = System.Drawing.Color.DarkGray;
             this.btnReportes.Dock = System.Windows.Forms.DockStyle.Top;
             this.btnReportes.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnReportes.ForeColor = System.Drawing.SystemColors.ButtonFace;
@@ -126,7 +126,7 @@
             // 
             // btnDetalleVentas
             // 
-            this.btnDetalleVentas.BackColor = System.Drawing.Color.SteelBlue;
+            this.btnDetalleVentas.BackColor = System.Drawing.Color.DarkGray;
             this.btnDetalleVentas.Dock = System.Windows.Forms.DockStyle.Top;
             this.btnDetalleVentas.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnDetalleVentas.ForeColor = System.Drawing.SystemColors.ButtonFace;
@@ -140,7 +140,7 @@
             // 
             // btnVentas
             // 
-            this.btnVentas.BackColor = System.Drawing.Color.SteelBlue;
+            this.btnVentas.BackColor = System.Drawing.Color.DarkGray;
             this.btnVentas.Dock = System.Windows.Forms.DockStyle.Top;
             this.btnVentas.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnVentas.ForeColor = System.Drawing.SystemColors.ButtonFace;
@@ -154,7 +154,7 @@
             // 
             // btnProductos
             // 
-            this.btnProductos.BackColor = System.Drawing.Color.SteelBlue;
+            this.btnProductos.BackColor = System.Drawing.Color.DarkGray;
             this.btnProductos.Dock = System.Windows.Forms.DockStyle.Top;
             this.btnProductos.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnProductos.ForeColor = System.Drawing.SystemColors.ButtonFace;
