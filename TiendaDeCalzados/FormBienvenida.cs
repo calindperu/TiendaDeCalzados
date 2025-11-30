@@ -21,7 +21,7 @@ namespace TiendaDeCalzados
         private void FormBienvenida_Load(object sender, EventArgs e)
         {
             Usuario usuario = SesionActual.UsuarioLogueado;
-            lblBienvenido.Text = "Bienvenido usuario " + usuario.NombreCompleto + " a la Tienda de Calzados";
+            lblBienvenido.Text = "¡Bienvenido usuario " + usuario.NombreCompleto + " a la Tienda de Calzados!";
 
         }
     }
