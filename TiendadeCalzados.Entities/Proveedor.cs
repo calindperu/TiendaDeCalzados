@@ -4,7 +4,12 @@ namespace TiendadeCalzados.Entities
 {
     public class Proveedor
     {
+        //public int IdProveedor { get; set; }
+
+       
+        //public Proveedor IdProveedor { get; set; }
         public int IdProveedor { get; set; }
+
         public string RUC { get; set; }
         public string RazonSocial { get; set; }
         public string Direccion { get; set; }

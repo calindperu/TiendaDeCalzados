@@ -32,15 +32,17 @@ namespace TiendaDeCalzados
                     MessageBoxButtons.OK,
                     MessageBoxIcon.Information
                     );
+
+                FormInicio formInicio = new FormInicio();
+                formInicio.Show();
+                this.Hide();
             }
             catch (Exception ex) 
             {
                 MessageBox.Show(ex.Message, "Error de Acceso:", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
                         
-            FormInicio formInicio = new FormInicio();
-            formInicio.Show();
-            this.Hide();
+
         }
      
     }

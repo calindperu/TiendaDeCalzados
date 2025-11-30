@@ -4,10 +4,19 @@ namespace TiendadeCalzados.Entities
 {
     public class Producto
     {
-        public int IdVenta { get; set; }
-        public DateTime FechaVenta { get; set; }
-        public int IdCliente { get; set; }
-        public decimal Total { get; set; }
+        public int IdProducto { get; set; }
+        public string NombreProducto { get; set; }
+        public string Marca { get; set; }
+        public string Talla { get; set; }
+        public decimal PrecioCompra { get; set; }
+        public decimal PrecioVenta { get; set; }
+        public int Stock { get; set; }
+
+        // Cambiar de Proveedor a int SI SOLO GUARDAS EL ID
+        public int IdProveedor { get; set; }
+
+        public DateTime FechaRegistro { get; set; }
+
 
     }
 }

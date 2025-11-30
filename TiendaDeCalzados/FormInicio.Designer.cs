@@ -86,8 +86,9 @@
             // 
             this.btnUsuarios.BackColor = System.Drawing.Color.SteelBlue;
             this.btnUsuarios.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnUsuarios.Enabled = false;
             this.btnUsuarios.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnUsuarios.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.btnUsuarios.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.btnUsuarios.Location = new System.Drawing.Point(0, 290);
             this.btnUsuarios.Name = "btnUsuarios";
             this.btnUsuarios.Size = new System.Drawing.Size(143, 40);
@@ -98,10 +99,11 @@
             // 
             // btnReportes
             // 
-            this.btnReportes.BackColor = System.Drawing.Color.DarkGray;
+            this.btnReportes.BackColor = System.Drawing.Color.SteelBlue;
             this.btnReportes.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnReportes.Enabled = false;
             this.btnReportes.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnReportes.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.btnReportes.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.btnReportes.Location = new System.Drawing.Point(0, 250);
             this.btnReportes.Name = "btnReportes";
             this.btnReportes.Size = new System.Drawing.Size(143, 40);
@@ -114,8 +116,9 @@
             // 
             this.btnProveedores.BackColor = System.Drawing.Color.SteelBlue;
             this.btnProveedores.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnProveedores.Enabled = false;
             this.btnProveedores.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnProveedores.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.btnProveedores.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.btnProveedores.Location = new System.Drawing.Point(0, 210);
             this.btnProveedores.Name = "btnProveedores";
             this.btnProveedores.Size = new System.Drawing.Size(143, 40);
@@ -126,10 +129,11 @@
             // 
             // btnDetalleVentas
             // 
-            this.btnDetalleVentas.BackColor = System.Drawing.Color.DarkGray;
+            this.btnDetalleVentas.BackColor = System.Drawing.Color.SteelBlue;
             this.btnDetalleVentas.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnDetalleVentas.Enabled = false;
             this.btnDetalleVentas.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnDetalleVentas.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.btnDetalleVentas.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.btnDetalleVentas.Location = new System.Drawing.Point(0, 170);
             this.btnDetalleVentas.Name = "btnDetalleVentas";
             this.btnDetalleVentas.Size = new System.Drawing.Size(143, 40);
@@ -140,10 +144,11 @@
             // 
             // btnVentas
             // 
-            this.btnVentas.BackColor = System.Drawing.Color.DarkGray;
+            this.btnVentas.BackColor = System.Drawing.Color.SteelBlue;
             this.btnVentas.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnVentas.Enabled = false;
             this.btnVentas.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnVentas.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.btnVentas.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.btnVentas.Location = new System.Drawing.Point(0, 130);
             this.btnVentas.Name = "btnVentas";
             this.btnVentas.Size = new System.Drawing.Size(143, 40);
@@ -154,10 +159,11 @@
             // 
             // btnProductos
             // 
-            this.btnProductos.BackColor = System.Drawing.Color.DarkGray;
+            this.btnProductos.BackColor = System.Drawing.Color.SteelBlue;
             this.btnProductos.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnProductos.Enabled = false;
             this.btnProductos.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnProductos.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.btnProductos.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.btnProductos.Location = new System.Drawing.Point(0, 90);
             this.btnProductos.Name = "btnProductos";
             this.btnProductos.Size = new System.Drawing.Size(143, 40);
@@ -170,8 +176,9 @@
             // 
             this.btnClientes.BackColor = System.Drawing.Color.SteelBlue;
             this.btnClientes.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnClientes.Enabled = false;
             this.btnClientes.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnClientes.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.btnClientes.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.btnClientes.Location = new System.Drawing.Point(0, 50);
             this.btnClientes.Name = "btnClientes";
             this.btnClientes.Size = new System.Drawing.Size(143, 40);
@@ -229,7 +236,7 @@
             this.pnlContenedor.Dock = System.Windows.Forms.DockStyle.Fill;
             this.pnlContenedor.Location = new System.Drawing.Point(143, 0);
             this.pnlContenedor.Name = "pnlContenedor";
-            this.pnlContenedor.Size = new System.Drawing.Size(755, 450);
+            this.pnlContenedor.Size = new System.Drawing.Size(741, 450);
             this.pnlContenedor.TabIndex = 4;
             // 
             // label5
@@ -266,7 +273,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(898, 450);
+            this.ClientSize = new System.Drawing.Size(884, 450);
             this.Controls.Add(this.pnlContenedor);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
