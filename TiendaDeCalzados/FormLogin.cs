@@ -22,10 +22,12 @@ namespace TiendaDeCalzados
 
             try
             {
-                Usuario NombreUsuario = loginService.Login(txtUsuario.Text, txtClave.Text);
+                Usuario usuario = loginService.Login(txtUsuario.Text, txtClave.Text);
+
+                SesionActual.UsuarioLogueado = usuario;
 
                 MessageBox.Show(
-                    "Bienvenido " + NombreUsuario.NombreCompleto + " a la Tienda de Calzados",
+                    "Bienvenido " + usuario.NombreCompleto + " a la Tienda de Calzados",
                     "Acceso OK",
                     MessageBoxButtons.OK,
                     MessageBoxIcon.Information

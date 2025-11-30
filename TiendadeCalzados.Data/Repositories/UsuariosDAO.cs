@@ -27,10 +27,10 @@ namespace TiendadeCalzados.Data.Repositories
                             U.Estado,
                             R.NombreRol
                         FROM Usuarios U
-                        INNER JOIN Roles R ON R.IdRol = U.IdRol;
+                        INNER JOIN Roles R ON R.IdRol = U.IdRol                         
                         ";
-               
-                                
+
+
 
                 /*
                  
@@ -91,5 +91,3 @@ namespace TiendadeCalzados.Data.Repositories
         }
     }
 }
-
-

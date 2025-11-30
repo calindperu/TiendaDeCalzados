@@ -28,7 +28,6 @@ namespace TiendaDeCalzados
             dgvUsuarios.Columns.Add("NombreUsuario", "Nombre de Usuario");
             dgvUsuarios.Columns["NombreUsuario"].DataPropertyName = "NombreUsuario";
 
-
             dgvUsuarios.Columns.Add("NombreCompleto", "Datos del Usuario");
             dgvUsuarios.Columns["NombreCompleto"].DataPropertyName = "NombreCompleto";
 
@@ -41,8 +40,9 @@ namespace TiendaDeCalzados
             dgvUsuarios.Columns.Add("IdRol", "Rol de usuario");
             dgvUsuarios.Columns["IdRol"].DataPropertyName = "IdRol";
 
+            Usuario NombreUsuario = SesionActual.UsuarioLogueado;
 
-            List<Usuario> usuarios = usuarioService.ListarUsuarios(1);
+            List<Usuario> usuarios = usuarioService.ListarUsuarios(NombreUsuario.IdUsuario);
          
             dgvUsuarios.DataSource = usuarios;
 
