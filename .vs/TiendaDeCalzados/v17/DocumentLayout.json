@@ -1,0 +1,40 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Sistema\\source\\repos\\TiendaDeCalzados\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B7A13208-D2AC-45A7-9140-763F508E7057}|TiendaDeCalzados\\TiendaDeCalzados.Presentation.csproj|c:\\users\\sistema\\source\\repos\\tiendadecalzados\\tiendadecalzados\\formlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B7A13208-D2AC-45A7-9140-763F508E7057}|TiendaDeCalzados\\TiendaDeCalzados.Presentation.csproj|solutionrelative:tiendadecalzados\\formlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FormLogin.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Sistema\\source\\repos\\TiendaDeCalzados\\TiendaDeCalzados\\FormLogin.cs",
+              "RelativeDocumentMoniker": "TiendaDeCalzados\\FormLogin.cs",
+              "ToolTip": "C:\\Users\\Sistema\\source\\repos\\TiendaDeCalzados\\TiendaDeCalzados\\FormLogin.cs [Dise\u00F1o]",
+              "RelativeToolTip": "TiendaDeCalzados\\FormLogin.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-29T23:50:00.551Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

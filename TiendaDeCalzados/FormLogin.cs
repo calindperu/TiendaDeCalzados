@@ -1,0 +1,45 @@
+﻿using System;
+using System.Windows.Forms;
+using TiendadeCalzados.Entities;
+using TiendadeCalzados.Business.Services;
+using System.Linq.Expressions;
+
+
+namespace TiendaDeCalzados
+{
+    public partial class FormLogin : Form
+    {
+        private readonly LoginService loginService;
+        public FormLogin()
+        {
+            InitializeComponent();
+            loginService = new LoginService();
+
+        }
+
+        private void btnIngresar_Click(object sender, EventArgs e)
+        {
+
+            try
+            {
+                Usuario NombreUsuario = loginService.Login(txtUsuario.Text, txtClave.Text);
+
+                MessageBox.Show(
+                    "Bienvenido " + NombreUsuario.NombreCompleto + " a la Tienda de Calzados",
+                    "Acceso OK",
+                    MessageBoxButtons.OK,
+                    MessageBoxIcon.Information
+                    );
+            }
+            catch (Exception ex) 
+            {
+                MessageBox.Show(ex.Message, "Error de Acceso:", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+                        
+            FormInicio formInicio = new FormInicio();
+            formInicio.Show();
+            this.Hide();
+        }
+     
+    }
+}

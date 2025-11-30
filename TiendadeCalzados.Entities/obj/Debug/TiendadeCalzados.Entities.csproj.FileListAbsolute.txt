@@ -1,0 +1,12 @@
+C:\Users\Sistema\source\repos\TiendaDeCalzados\TiendadeCalzados.Entities\bin\Debug\TiendadeCalzados.Entities.dll
+C:\Users\Sistema\source\repos\TiendaDeCalzados\TiendadeCalzados.Entities\bin\Debug\TiendadeCalzados.Entities.pdb
+C:\Users\Sistema\source\repos\TiendaDeCalzados\TiendadeCalzados.Entities\obj\Debug\TiendadeCalzados.Entities.csproj.AssemblyReference.cache
+C:\Users\Sistema\source\repos\TiendaDeCalzados\TiendadeCalzados.Entities\obj\Debug\TiendadeCalzados.Entities.csproj.CoreCompileInputs.cache
+C:\Users\Sistema\source\repos\TiendaDeCalzados\TiendadeCalzados.Entities\obj\Debug\TiendadeCalzados.Entities.dll
+C:\Users\Sistema\source\repos\TiendaDeCalzados\TiendadeCalzados.Entities\obj\Debug\TiendadeCalzados.Entities.pdb
+C:\Users\cgamarra\source\repos\TiendaDeCalzados\TiendadeCalzados.Entities\bin\Debug\TiendadeCalzados.Entities.dll
+C:\Users\cgamarra\source\repos\TiendaDeCalzados\TiendadeCalzados.Entities\bin\Debug\TiendadeCalzados.Entities.pdb
+C:\Users\cgamarra\source\repos\TiendaDeCalzados\TiendadeCalzados.Entities\obj\Debug\TiendadeCalzados.Entities.csproj.AssemblyReference.cache
+C:\Users\cgamarra\source\repos\TiendaDeCalzados\TiendadeCalzados.Entities\obj\Debug\TiendadeCalzados.Entities.csproj.CoreCompileInputs.cache
+C:\Users\cgamarra\source\repos\TiendaDeCalzados\TiendadeCalzados.Entities\obj\Debug\TiendadeCalzados.Entities.dll
+C:\Users\cgamarra\source\repos\TiendaDeCalzados\TiendadeCalzados.Entities\obj\Debug\TiendadeCalzados.Entities.pdb

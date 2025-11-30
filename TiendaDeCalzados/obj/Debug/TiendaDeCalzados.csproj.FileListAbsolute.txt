@@ -1,0 +1,9 @@
+C:\Users\Sistema\source\repos\TiendaDeCalzados\TiendaDeCalzados\bin\Debug\TiendaDeCalzados.exe.config
+C:\Users\Sistema\source\repos\TiendaDeCalzados\TiendaDeCalzados\bin\Debug\TiendaDeCalzados.exe
+C:\Users\Sistema\source\repos\TiendaDeCalzados\TiendaDeCalzados\bin\Debug\TiendaDeCalzados.pdb
+C:\Users\Sistema\source\repos\TiendaDeCalzados\TiendaDeCalzados\obj\Debug\TiendaDeCalzados.csproj.AssemblyReference.cache
+C:\Users\Sistema\source\repos\TiendaDeCalzados\TiendaDeCalzados\obj\Debug\TiendaDeCalzados.Properties.Resources.resources
+C:\Users\Sistema\source\repos\TiendaDeCalzados\TiendaDeCalzados\obj\Debug\TiendaDeCalzados.csproj.GenerateResource.cache
+C:\Users\Sistema\source\repos\TiendaDeCalzados\TiendaDeCalzados\obj\Debug\TiendaDeCalzados.csproj.CoreCompileInputs.cache
+C:\Users\Sistema\source\repos\TiendaDeCalzados\TiendaDeCalzados\obj\Debug\TiendaDeCalzados.exe
+C:\Users\Sistema\source\repos\TiendaDeCalzados\TiendaDeCalzados\obj\Debug\TiendaDeCalzados.pdb
