@@ -1,43 +1,86 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using System.Data.SqlClient;
 using System.Windows.Forms;
+using TiendadeCalzados.Business.Services;
+using TiendadeCalzados.Entities;
+using TiendadeCalzados.Presentation;   // 👈 IMPORTANTE
 
 namespace TiendaDeCalzados
 {
     public partial class FormVentas : Form
     {
+        private VentaService ventaService = new VentaService();
+
         public FormVentas()
         {
             InitializeComponent();
         }
 
-        public void FormVentas_load(object sender, EventArgs e)
+        // ========================= LOAD =========================
+        private void FormVentas_Load(object sender, EventArgs e)
         {
-             
-                dgvVentas.ColumnCount = 4;
-                dgvVentas.Columns[0].Name = "Id";
-                dgvVentas.Columns[1].Name = "Fecha";
-                dgvVentas.Columns[2].Name = "IdCliente";
-                dgvVentas.Columns[3].Name = "Total";
+            ConfigurarGrid();
+            CargarVentas();           
 
-                object[] row1 = { 1, DateTime.Parse("2024-01-05"), 101, 250.50m };
-                object[] row2 = { 2, DateTime.Parse("2024-06-15"), 151, 250.50m };
-                object[] row3 = { 3, DateTime.Parse("2023-11-25"), 220, 250.50m };
-                object[] row4 = { 4, DateTime.Parse("2023-12-09"), 125, 250.50m };
+        }
 
-            dgvVentas.Rows.Add(row1);
-            dgvVentas.Rows.Add(row2);
-            dgvVentas.Rows.Add(row3);
-            dgvVentas.Rows.Add(row4);
+        // ========================= CONFIGURAR GRID =========================
+        private void ConfigurarGrid()
+        {
+            dgvVentas.AutoGenerateColumns = false;
+            dgvVentas.Columns.Clear();
 
+            dgvVentas.SelectionMode = DataGridViewSelectionMode.FullRowSelect;
+            dgvVentas.MultiSelect = false;
+            dgvVentas.ReadOnly = true;
+
+            dgvVentas.Columns.Add("IdVenta", "Código Venta");
+            dgvVentas.Columns["IdVenta"].DataPropertyName = "IdVenta";
+
+            dgvVentas.Columns.Add("IdCliente", "Código Cliente");
+            dgvVentas.Columns["IdCliente"].DataPropertyName = "IdCliente";
+
+            dgvVentas.Columns.Add("FechaVenta", "Fecha de Venta");
+            dgvVentas.Columns["FechaVenta"].DataPropertyName = "FechaVenta";
+
+            dgvVentas.Columns.Add("TotalVenta", "Total Venta");
+            dgvVentas.Columns["TotalVenta"].DataPropertyName = "TotalVenta";
+        
+        }
+
+          
+
+        // ========================= CARGAR VENTAS =========================
+        private void CargarVentas()
+        {
+            dgvVentas.DataSource = null;
+            dgvVentas.DataSource = ventaService.ListarVentas();
+            
+        }
+
+        // ========================= VER DETALLE =========================
+        private void btnDetalle_Click(object sender, EventArgs e)
+        {
+            if (dgvVentas.Rows.Count == 0)
+            {
+                MessageBox.Show("No hay ventas registradas");
+                return;
+            }
+
+            if (dgvVentas.SelectedRows.Count == 0)
+            {
+                MessageBox.Show("Seleccione una venta");
+                return;
+            }
+
+            int idVenta = Convert.ToInt32(
+                dgvVentas.SelectedRows[0].Cells["IdVenta"].Value
+            );
+
+            FormDetalleVentas frm = new FormDetalleVentas(idVenta);
+            frm.ShowDialog();
         }
     }
 }
-
 

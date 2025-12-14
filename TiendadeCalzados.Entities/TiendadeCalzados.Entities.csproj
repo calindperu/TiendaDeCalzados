@@ -41,8 +41,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DetalleReporteVenta.cs" />
     <Compile Include="DetalleVenta.cs" />
     <Compile Include="Reporte.cs" />
+    <Compile Include="ReporteVenta.cs" />
     <Compile Include="SesionActual.cs" />
     <Compile Include="Usuario.cs" />
     <Compile Include="Rol.cs" />

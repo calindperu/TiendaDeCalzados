@@ -19,5 +19,7 @@ namespace TiendadeCalzados.Entities
 
         public int Estado { get; set; }
 
+        public DateTime FechaRegistro { get; set; }
+
     }
 }

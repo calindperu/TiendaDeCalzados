@@ -1,12 +1,3 @@
-C:\Users\Sistema\source\repos\TiendaDeCalzados\TiendadeCalzados.Data\bin\Debug\TiendadeCalzados.Data.dll
-C:\Users\Sistema\source\repos\TiendaDeCalzados\TiendadeCalzados.Data\bin\Debug\TiendadeCalzados.Data.pdb
-C:\Users\Sistema\source\repos\TiendaDeCalzados\TiendadeCalzados.Data\bin\Debug\TiendadeCalzados.Entities.dll
-C:\Users\Sistema\source\repos\TiendaDeCalzados\TiendadeCalzados.Data\bin\Debug\TiendadeCalzados.Entities.pdb
-C:\Users\Sistema\source\repos\TiendaDeCalzados\TiendadeCalzados.Data\obj\Debug\TiendadeCalzados.Data.csproj.AssemblyReference.cache
-C:\Users\Sistema\source\repos\TiendaDeCalzados\TiendadeCalzados.Data\obj\Debug\TiendadeCalzados.Data.csproj.CoreCompileInputs.cache
-C:\Users\Sistema\source\repos\TiendaDeCalzados\TiendadeCalzados.Data\obj\Debug\Tiendade.543ADFCD.Up2Date
-C:\Users\Sistema\source\repos\TiendaDeCalzados\TiendadeCalzados.Data\obj\Debug\TiendadeCalzados.Data.dll
-C:\Users\Sistema\source\repos\TiendaDeCalzados\TiendadeCalzados.Data\obj\Debug\TiendadeCalzados.Data.pdb
 C:\Users\cgamarra\source\repos\TiendaDeCalzados\TiendadeCalzados.Data\bin\Debug\TiendadeCalzados.Data.dll
 C:\Users\cgamarra\source\repos\TiendaDeCalzados\TiendadeCalzados.Data\bin\Debug\TiendadeCalzados.Data.pdb
 C:\Users\cgamarra\source\repos\TiendaDeCalzados\TiendadeCalzados.Data\bin\Debug\TiendadeCalzados.Entities.dll
@@ -25,3 +16,12 @@ C:\Users\Lenovo\source\repos\TiendaDeCalzados\TiendadeCalzados.Data\obj\Debug\Ti
 C:\Users\Lenovo\source\repos\TiendaDeCalzados\TiendadeCalzados.Data\obj\Debug\Tiendade.543ADFCD.Up2Date
 C:\Users\Lenovo\source\repos\TiendaDeCalzados\TiendadeCalzados.Data\obj\Debug\TiendadeCalzados.Data.dll
 C:\Users\Lenovo\source\repos\TiendaDeCalzados\TiendadeCalzados.Data\obj\Debug\TiendadeCalzados.Data.pdb
+C:\Users\Sistema\source\repos\TiendaDeCalzados\TiendadeCalzados.Data\bin\Debug\TiendadeCalzados.Data.dll
+C:\Users\Sistema\source\repos\TiendaDeCalzados\TiendadeCalzados.Data\bin\Debug\TiendadeCalzados.Data.pdb
+C:\Users\Sistema\source\repos\TiendaDeCalzados\TiendadeCalzados.Data\bin\Debug\TiendadeCalzados.Entities.dll
+C:\Users\Sistema\source\repos\TiendaDeCalzados\TiendadeCalzados.Data\bin\Debug\TiendadeCalzados.Entities.pdb
+C:\Users\Sistema\source\repos\TiendaDeCalzados\TiendadeCalzados.Data\obj\Debug\TiendadeCalzados.Data.csproj.AssemblyReference.cache
+C:\Users\Sistema\source\repos\TiendaDeCalzados\TiendadeCalzados.Data\obj\Debug\TiendadeCalzados.Data.csproj.CoreCompileInputs.cache
+C:\Users\Sistema\source\repos\TiendaDeCalzados\TiendadeCalzados.Data\obj\Debug\Tiendade.543ADFCD.Up2Date
+C:\Users\Sistema\source\repos\TiendaDeCalzados\TiendadeCalzados.Data\obj\Debug\TiendadeCalzados.Data.dll
+C:\Users\Sistema\source\repos\TiendaDeCalzados\TiendadeCalzados.Data\obj\Debug\TiendadeCalzados.Data.pdb

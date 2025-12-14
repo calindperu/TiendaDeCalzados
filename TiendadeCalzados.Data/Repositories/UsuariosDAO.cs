@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using System.Data.SqlClient;
 using TiendadeCalzados.Data.Connection;
 using TiendadeCalzados.Entities;
-
 namespace TiendadeCalzados.Data.Repositories
 {
     public class UsuariosDAO
@@ -25,6 +24,7 @@ namespace TiendadeCalzados.Data.Repositories
                             U.Correo,
                             U.IdRol,
                             U.Estado,
+                            U.FechaRegistro,   
                             R.NombreRol
                         FROM Usuarios U
                         INNER JOIN Roles R ON R.IdRol = U.IdRol                         
@@ -68,6 +68,7 @@ namespace TiendadeCalzados.Data.Repositories
                             Usuario usuario = new Usuario
                             {
                                 IdUsuario = Convert.ToInt32(dr["IdUsuario"]),
+                                Clave = dr["Clave"]?.ToString(),
                                 NombreUsuario = dr["NombreUsuario"]?.ToString(),
                                 NombreCompleto = dr["NombreCompleto"]?.ToString(),
                                 Correo = dr["Correo"]?.ToString(),
@@ -77,8 +78,13 @@ namespace TiendadeCalzados.Data.Repositories
                                 Rol = new Rol
                                 {
                                     IdRol = dr["IdRol"] != DBNull.Value ? Convert.ToInt32(dr["IdRol"]) : 0,
-                                    NombreRol = dr["NombreRol"]?.ToString()
-                                }
+                                    NombreRol = dr["NombreRol"]?.ToString(),
+                                },
+
+                                FechaRegistro = dr["FechaRegistro"] != DBNull.Value
+                                ? Convert.ToDateTime(dr["FechaRegistro"])
+                                : DateTime.MinValue,
+                                                               
                             };
 
                             usuarios.Add(usuario);
@@ -90,4 +96,6 @@ namespace TiendadeCalzados.Data.Repositories
             return usuarios;
         }
     }
+
+
 }

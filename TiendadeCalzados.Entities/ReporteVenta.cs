@@ -1,0 +1,19 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+
+
+namespace TiendadeCalzados.Entities
+{
+    public class ReporteVenta
+    {
+        public int IdVenta { get; set; }
+        public DateTime FechaVenta { get; set; }
+        public string NombreUsuario { get; set; }
+        public string Apellidos { get; set; }
+        public decimal TotalVenta { get; set; }
+    }
+}

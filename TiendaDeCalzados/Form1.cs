@@ -1,13 +1,6 @@
 ﻿using System;
-using System.Collections;
-using System.Collections.Generic;
-using System.ComponentModel;
 using System.Data;
 using System.Data.SqlClient;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 
@@ -21,9 +14,12 @@ namespace TiendaDeCalzados
         string connectionString = "Server=localhost\\SLQEXPRESS;Database=TIENDACALZADOS;Trusted_Connection=True;";
         string connectionString = "Server=localhost\\SLQEXPRESS;Database=TIENDACALZADOS;User Id=sa;Password=carlos$18;"; 
         string connectionString = "Server=PC_GTIC09\\SQLEXPRESS;Database=TIENDACALZADOS;User Id=sa;Password=carlos$18;";
+        Server=Localhost\\SQLEXPRESS;Database=TIENDACALZADOS;User Id=sa;Password=carlos$18;Trusted_Connection=True
+        "Server=localhost\\SLQEXPRESS;Database=TIENDACALZADOS;Trusted_Connection=True;"
+
         */
 
-        string connectionString = "Server=localhost\\SLQEXPRESS;Database=TIENDACALZADOS;Trusted_Connection=True;";
+        string connectionString = "Server=Localhost\\SQLEXPRESS;Database=TIENDACALZADOS;User Id=sa;Password=carlos$18;Trusted_Connection=True";
         int IdSeleccionado = 0;
 
         public Form1()
@@ -103,7 +99,7 @@ namespace TiendaDeCalzados
             using (SqlConnection conn = new SqlConnection(connectionString))
             {
                 string query = @"UPDATE Usuarios 
-                         SET Usuario=@Usuario, 
+                             SET Usuario=@Usuario, 
                              Clave=@Clave, 
                              NombreCompleto=@NombreCompleto, 
                              Correo=@Correo, 

@@ -13,5 +13,10 @@ namespace TiendadeCalzados.Entities
 
         // public int IdUsuario { get; set; }
 
+        public int IdVenta { get; set; }
+        public DateTime FechaVenta { get; set; }
+        public string Cliente { get; set; }
+        public decimal TotalVenta { get; set; }
+
     }
 }

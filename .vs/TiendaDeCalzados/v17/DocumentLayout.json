@@ -3,48 +3,32 @@
   "WorkspaceRootPath": "C:\\Users\\Sistema\\source\\repos\\TiendaDeCalzados\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B7A13208-D2AC-45A7-9140-763F508E7057}|TiendaDeCalzados\\TiendaDeCalzados.Presentation.csproj|C:\\Users\\Sistema\\source\\repos\\TiendaDeCalzados\\tiendadecalzados\\forminicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{B7A13208-D2AC-45A7-9140-763F508E7057}|TiendaDeCalzados\\TiendaDeCalzados.Presentation.csproj|solutionrelative:tiendadecalzados\\forminicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{B7A13208-D2AC-45A7-9140-763F508E7057}|TiendaDeCalzados\\TiendaDeCalzados.Presentation.csproj|c:\\users\\sistema\\source\\repos\\tiendadecalzados\\tiendadecalzados\\formventas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B7A13208-D2AC-45A7-9140-763F508E7057}|TiendaDeCalzados\\TiendaDeCalzados.Presentation.csproj|solutionrelative:tiendadecalzados\\formventas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B7A13208-D2AC-45A7-9140-763F508E7057}|TiendaDeCalzados\\TiendaDeCalzados.Presentation.csproj|c:\\users\\sistema\\source\\repos\\tiendadecalzados\\tiendadecalzados\\formbienvenida.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B7A13208-D2AC-45A7-9140-763F508E7057}|TiendaDeCalzados\\TiendaDeCalzados.Presentation.csproj|solutionrelative:tiendadecalzados\\formbienvenida.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B7A13208-D2AC-45A7-9140-763F508E7057}|TiendaDeCalzados\\TiendaDeCalzados.Presentation.csproj|C:\\Users\\Sistema\\source\\repos\\TiendaDeCalzados\\tiendadecalzados\\formventas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B7A13208-D2AC-45A7-9140-763F508E7057}|TiendaDeCalzados\\TiendaDeCalzados.Presentation.csproj|solutionrelative:tiendadecalzados\\formventas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B7A13208-D2AC-45A7-9140-763F508E7057}|TiendaDeCalzados\\TiendaDeCalzados.Presentation.csproj|C:\\Users\\Sistema\\source\\repos\\TiendaDeCalzados\\tiendadecalzados\\formbienvenida.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{B7A13208-D2AC-45A7-9140-763F508E7057}|TiendaDeCalzados\\TiendaDeCalzados.Presentation.csproj|solutionrelative:tiendadecalzados\\formbienvenida.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{35A0455F-C4DD-4CB7-B334-98F6CB3245E5}|TiendadeCalzados.Entities\\TiendadeCalzados.Entities.csproj|C:\\Users\\Sistema\\source\\repos\\TiendaDeCalzados\\tiendadecalzados.entities\\detallereporteventa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{35A0455F-C4DD-4CB7-B334-98F6CB3245E5}|TiendadeCalzados.Entities\\TiendadeCalzados.Entities.csproj|solutionrelative:tiendadecalzados.entities\\detallereporteventa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B7A13208-D2AC-45A7-9140-763F508E7057}|TiendaDeCalzados\\TiendaDeCalzados.Presentation.csproj|C:\\Users\\Sistema\\source\\repos\\TiendaDeCalzados\\tiendadecalzados\\forminicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B7A13208-D2AC-45A7-9140-763F508E7057}|TiendaDeCalzados\\TiendaDeCalzados.Presentation.csproj|solutionrelative:tiendadecalzados\\forminicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{ACE3856D-1887-4BB3-A8DD-986984636B45}|TiendadeCalzados.Data\\TiendadeCalzados.Data.csproj|C:\\Users\\Sistema\\source\\repos\\TiendaDeCalzados\\tiendadecalzados.data\\repositories\\reportedao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ACE3856D-1887-4BB3-A8DD-986984636B45}|TiendadeCalzados.Data\\TiendadeCalzados.Data.csproj|solutionrelative:tiendadecalzados.data\\repositories\\reportedao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B7A13208-D2AC-45A7-9140-763F508E7057}|TiendaDeCalzados\\TiendaDeCalzados.Presentation.csproj|C:\\Users\\Sistema\\source\\repos\\TiendaDeCalzados\\tiendadecalzados\\formusuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B7A13208-D2AC-45A7-9140-763F508E7057}|TiendaDeCalzados\\TiendaDeCalzados.Presentation.csproj|solutionrelative:tiendadecalzados\\formusuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{324DBD7E-34A9-4884-8395-C49158DCABAC}|TiendadeCalzados.Business\\TiendadeCalzados.Business.csproj|C:\\Users\\Sistema\\source\\repos\\TiendaDeCalzados\\tiendadecalzados.business\\services\\reporteservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{324DBD7E-34A9-4884-8395-C49158DCABAC}|TiendadeCalzados.Business\\TiendadeCalzados.Business.csproj|solutionrelative:tiendadecalzados.business\\services\\reporteservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{35A0455F-C4DD-4CB7-B334-98F6CB3245E5}|TiendadeCalzados.Entities\\TiendadeCalzados.Entities.csproj|C:\\Users\\Sistema\\source\\repos\\TiendaDeCalzados\\tiendadecalzados.entities\\rol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{35A0455F-C4DD-4CB7-B334-98F6CB3245E5}|TiendadeCalzados.Entities\\TiendadeCalzados.Entities.csproj|solutionrelative:tiendadecalzados.entities\\rol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B7A13208-D2AC-45A7-9140-763F508E7057}|TiendaDeCalzados\\TiendaDeCalzados.Presentation.csproj|C:\\Users\\Sistema\\source\\repos\\TiendaDeCalzados\\tiendadecalzados\\formreportes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B7A13208-D2AC-45A7-9140-763F508E7057}|TiendaDeCalzados\\TiendaDeCalzados.Presentation.csproj|solutionrelative:tiendadecalzados\\formreportes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B7A13208-D2AC-45A7-9140-763F508E7057}|TiendaDeCalzados\\TiendaDeCalzados.Presentation.csproj|C:\\Users\\Sistema\\source\\repos\\TiendaDeCalzados\\tiendadecalzados\\formlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B7A13208-D2AC-45A7-9140-763F508E7057}|TiendaDeCalzados\\TiendaDeCalzados.Presentation.csproj|solutionrelative:tiendadecalzados\\formlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B7A13208-D2AC-45A7-9140-763F508E7057}|TiendaDeCalzados\\TiendaDeCalzados.Presentation.csproj|C:\\Users\\Sistema\\source\\repos\\TiendaDeCalzados\\tiendadecalzados\\formlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{B7A13208-D2AC-45A7-9140-763F508E7057}|TiendaDeCalzados\\TiendaDeCalzados.Presentation.csproj|solutionrelative:tiendadecalzados\\formlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{35A0455F-C4DD-4CB7-B334-98F6CB3245E5}|TiendadeCalzados.Entities\\TiendadeCalzados.Entities.csproj|C:\\Users\\Sistema\\source\\repos\\TiendaDeCalzados\\tiendadecalzados.entities\\sesionactual.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{35A0455F-C4DD-4CB7-B334-98F6CB3245E5}|TiendadeCalzados.Entities\\TiendadeCalzados.Entities.csproj|solutionrelative:tiendadecalzados.entities\\sesionactual.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B7A13208-D2AC-45A7-9140-763F508E7057}|TiendaDeCalzados\\TiendaDeCalzados.Presentation.csproj|C:\\Users\\Sistema\\source\\repos\\TiendaDeCalzados\\tiendadecalzados\\formusuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{B7A13208-D2AC-45A7-9140-763F508E7057}|TiendaDeCalzados\\TiendaDeCalzados.Presentation.csproj|solutionrelative:tiendadecalzados\\formusuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{ACE3856D-1887-4BB3-A8DD-986984636B45}|TiendadeCalzados.Data\\TiendadeCalzados.Data.csproj|C:\\Users\\Sistema\\source\\repos\\TiendaDeCalzados\\tiendadecalzados.data\\repositories\\usuariosdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ACE3856D-1887-4BB3-A8DD-986984636B45}|TiendadeCalzados.Data\\TiendadeCalzados.Data.csproj|solutionrelative:tiendadecalzados.data\\repositories\\usuariosdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B7A13208-D2AC-45A7-9140-763F508E7057}|TiendaDeCalzados\\TiendaDeCalzados.Presentation.csproj|C:\\Users\\Sistema\\source\\repos\\TiendaDeCalzados\\tiendadecalzados\\formreportes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B7A13208-D2AC-45A7-9140-763F508E7057}|TiendaDeCalzados\\TiendaDeCalzados.Presentation.csproj|solutionrelative:tiendadecalzados\\formreportes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -54,143 +38,102 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "FormBienvenida.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Sistema\\source\\repos\\TiendaDeCalzados\\TiendaDeCalzados\\FormBienvenida.cs",
-              "RelativeDocumentMoniker": "TiendaDeCalzados\\FormBienvenida.cs",
-              "ToolTip": "C:\\Users\\Sistema\\source\\repos\\TiendaDeCalzados\\TiendaDeCalzados\\FormBienvenida.cs [Dise\u00F1o]",
-              "RelativeToolTip": "TiendaDeCalzados\\FormBienvenida.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-30T15:16:45.468Z",
-              "EditorCaption": " [Dise\u00F1o]"
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Rol.cs",
-              "DocumentMoniker": "C:\\Users\\Sistema\\source\\repos\\TiendaDeCalzados\\TiendadeCalzados.Entities\\Rol.cs",
-              "RelativeDocumentMoniker": "TiendadeCalzados.Entities\\Rol.cs",
-              "ToolTip": "C:\\Users\\Sistema\\source\\repos\\TiendaDeCalzados\\TiendadeCalzados.Entities\\Rol.cs",
-              "RelativeToolTip": "TiendadeCalzados.Entities\\Rol.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "FormVentas.cs",
+              "DocumentMoniker": "C:\\Users\\Sistema\\source\\repos\\TiendaDeCalzados\\TiendaDeCalzados\\FormVentas.cs",
+              "RelativeDocumentMoniker": "TiendaDeCalzados\\FormVentas.cs",
+              "ToolTip": "C:\\Users\\Sistema\\source\\repos\\TiendaDeCalzados\\TiendaDeCalzados\\FormVentas.cs",
+              "RelativeToolTip": "TiendaDeCalzados\\FormVentas.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-30T14:35:36.161Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "FormInicio.cs",
-              "DocumentMoniker": "C:\\Users\\Sistema\\source\\repos\\TiendaDeCalzados\\TiendaDeCalzados\\FormInicio.cs",
-              "RelativeDocumentMoniker": "TiendaDeCalzados\\FormInicio.cs",
-              "ToolTip": "C:\\Users\\Sistema\\source\\repos\\TiendaDeCalzados\\TiendaDeCalzados\\FormInicio.cs",
-              "RelativeToolTip": "TiendaDeCalzados\\FormInicio.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAzAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-30T14:17:49.315Z",
+              "WhenOpened": "2025-12-14T05:44:12.612Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "FormBienvenida.cs",
-              "DocumentMoniker": "C:\\Users\\Sistema\\source\\repos\\TiendaDeCalzados\\TiendaDeCalzados\\FormBienvenida.cs",
-              "RelativeDocumentMoniker": "TiendaDeCalzados\\FormBienvenida.cs",
-              "ToolTip": "C:\\Users\\Sistema\\source\\repos\\TiendaDeCalzados\\TiendaDeCalzados\\FormBienvenida.cs",
-              "RelativeToolTip": "TiendaDeCalzados\\FormBienvenida.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAmwBcAAABtAAAAAAAAAA==",
+              "Title": "FormVentas.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Sistema\\source\\repos\\TiendaDeCalzados\\TiendaDeCalzados\\FormVentas.cs",
+              "RelativeDocumentMoniker": "TiendaDeCalzados\\FormVentas.cs",
+              "ToolTip": "C:\\Users\\Sistema\\source\\repos\\TiendaDeCalzados\\TiendaDeCalzados\\FormVentas.cs [Dise\u00F1o]",
+              "RelativeToolTip": "TiendaDeCalzados\\FormVentas.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-30T15:20:04.499Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "FormInicio.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Sistema\\source\\repos\\TiendaDeCalzados\\TiendaDeCalzados\\FormInicio.cs",
-              "RelativeDocumentMoniker": "TiendaDeCalzados\\FormInicio.cs",
-              "ToolTip": "C:\\Users\\Sistema\\source\\repos\\TiendaDeCalzados\\TiendaDeCalzados\\FormInicio.cs [Dise\u00F1o]",
-              "RelativeToolTip": "TiendaDeCalzados\\FormInicio.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-30T14:17:46.243Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "FormUsuarios.cs",
-              "DocumentMoniker": "C:\\Users\\Sistema\\source\\repos\\TiendaDeCalzados\\TiendaDeCalzados\\FormUsuarios.cs",
-              "RelativeDocumentMoniker": "TiendaDeCalzados\\FormUsuarios.cs",
-              "ToolTip": "C:\\Users\\Sistema\\source\\repos\\TiendaDeCalzados\\TiendaDeCalzados\\FormUsuarios.cs",
-              "RelativeToolTip": "TiendaDeCalzados\\FormUsuarios.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAgwCQAAAA4AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-30T14:14:53.472Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "FormUsuarios.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Sistema\\source\\repos\\TiendaDeCalzados\\TiendaDeCalzados\\FormUsuarios.cs",
-              "RelativeDocumentMoniker": "TiendaDeCalzados\\FormUsuarios.cs",
-              "ToolTip": "C:\\Users\\Sistema\\source\\repos\\TiendaDeCalzados\\TiendaDeCalzados\\FormUsuarios.cs [Dise\u00F1o]",
-              "RelativeToolTip": "TiendaDeCalzados\\FormUsuarios.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-30T14:14:51.495Z"
+              "WhenOpened": "2025-12-14T05:44:05.81Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "FormLogin.cs",
-              "DocumentMoniker": "C:\\Users\\Sistema\\source\\repos\\TiendaDeCalzados\\TiendaDeCalzados\\FormLogin.cs",
-              "RelativeDocumentMoniker": "TiendaDeCalzados\\FormLogin.cs",
-              "ToolTip": "C:\\Users\\Sistema\\source\\repos\\TiendaDeCalzados\\TiendaDeCalzados\\FormLogin.cs",
-              "RelativeToolTip": "TiendaDeCalzados\\FormLogin.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAB0AAAAlAAAAAAAAAA==",
+              "Title": "FormReportes.cs",
+              "DocumentMoniker": "C:\\Users\\Sistema\\source\\repos\\TiendaDeCalzados\\TiendaDeCalzados\\FormReportes.cs",
+              "RelativeDocumentMoniker": "TiendaDeCalzados\\FormReportes.cs",
+              "ToolTip": "C:\\Users\\Sistema\\source\\repos\\TiendaDeCalzados\\TiendaDeCalzados\\FormReportes.cs",
+              "RelativeToolTip": "TiendaDeCalzados\\FormReportes.cs",
+              "ViewState": "AgIAAE4AAAAAAAAAAIAwwHsAAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-30T14:10:22.402Z"
+              "WhenOpened": "2025-12-14T03:04:21.059Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "SesionActual.cs",
-              "DocumentMoniker": "C:\\Users\\Sistema\\source\\repos\\TiendaDeCalzados\\TiendadeCalzados.Entities\\SesionActual.cs",
-              "RelativeDocumentMoniker": "TiendadeCalzados.Entities\\SesionActual.cs",
-              "ToolTip": "C:\\Users\\Sistema\\source\\repos\\TiendaDeCalzados\\TiendadeCalzados.Entities\\SesionActual.cs",
-              "RelativeToolTip": "TiendadeCalzados.Entities\\SesionActual.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 5,
+              "Title": "FormReportes.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Sistema\\source\\repos\\TiendaDeCalzados\\TiendaDeCalzados\\FormReportes.cs",
+              "RelativeDocumentMoniker": "TiendaDeCalzados\\FormReportes.cs",
+              "ToolTip": "C:\\Users\\Sistema\\source\\repos\\TiendaDeCalzados\\TiendaDeCalzados\\FormReportes.cs [Dise\u00F1o]",
+              "RelativeToolTip": "TiendaDeCalzados\\FormReportes.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-30T14:02:17.079Z"
+              "WhenOpened": "2025-12-14T02:56:12.085Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "UsuariosDAO.cs",
-              "DocumentMoniker": "C:\\Users\\Sistema\\source\\repos\\TiendaDeCalzados\\TiendadeCalzados.Data\\Repositories\\UsuariosDAO.cs",
-              "RelativeDocumentMoniker": "TiendadeCalzados.Data\\Repositories\\UsuariosDAO.cs",
-              "ToolTip": "C:\\Users\\Sistema\\source\\repos\\TiendaDeCalzados\\TiendadeCalzados.Data\\Repositories\\UsuariosDAO.cs",
-              "RelativeToolTip": "TiendadeCalzados.Data\\Repositories\\UsuariosDAO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAA/AAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "ReporteService.cs",
+              "DocumentMoniker": "C:\\Users\\Sistema\\source\\repos\\TiendaDeCalzados\\TiendadeCalzados.Business\\Services\\ReporteService.cs",
+              "RelativeDocumentMoniker": "TiendadeCalzados.Business\\Services\\ReporteService.cs",
+              "ToolTip": "C:\\Users\\Sistema\\source\\repos\\TiendaDeCalzados\\TiendadeCalzados.Business\\Services\\ReporteService.cs",
+              "RelativeToolTip": "TiendadeCalzados.Business\\Services\\ReporteService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA5AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-30T03:52:35.798Z"
+              "WhenOpened": "2025-12-14T02:14:15.675Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "FormLogin.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Sistema\\source\\repos\\TiendaDeCalzados\\TiendaDeCalzados\\FormLogin.cs",
-              "RelativeDocumentMoniker": "TiendaDeCalzados\\FormLogin.cs",
-              "ToolTip": "C:\\Users\\Sistema\\source\\repos\\TiendaDeCalzados\\TiendaDeCalzados\\FormLogin.cs [Dise\u00F1o]",
-              "RelativeToolTip": "TiendaDeCalzados\\FormLogin.cs [Dise\u00F1o]",
+              "DocumentIndex": 3,
+              "Title": "ReporteDAO.cs",
+              "DocumentMoniker": "C:\\Users\\Sistema\\source\\repos\\TiendaDeCalzados\\TiendadeCalzados.Data\\Repositories\\ReporteDAO.cs",
+              "RelativeDocumentMoniker": "TiendadeCalzados.Data\\Repositories\\ReporteDAO.cs",
+              "ToolTip": "C:\\Users\\Sistema\\source\\repos\\TiendaDeCalzados\\TiendadeCalzados.Data\\Repositories\\ReporteDAO.cs",
+              "RelativeToolTip": "TiendadeCalzados.Data\\Repositories\\ReporteDAO.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAgwDMAAABHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-29T23:50:00.551Z"
+              "WhenOpened": "2025-12-14T03:42:11.168Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DetalleReporteVenta.cs",
+              "DocumentMoniker": "C:\\Users\\Sistema\\source\\repos\\TiendaDeCalzados\\TiendadeCalzados.Entities\\DetalleReporteVenta.cs",
+              "RelativeDocumentMoniker": "TiendadeCalzados.Entities\\DetalleReporteVenta.cs",
+              "ToolTip": "C:\\Users\\Sistema\\source\\repos\\TiendaDeCalzados\\TiendadeCalzados.Entities\\DetalleReporteVenta.cs",
+              "RelativeToolTip": "TiendadeCalzados.Entities\\DetalleReporteVenta.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAxwA4AAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-14T03:40:39.659Z"
             }
           ]
         }

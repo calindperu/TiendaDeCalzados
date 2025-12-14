@@ -16,7 +16,7 @@ namespace TiendadeCalzados.Data.Repositories
             {
                 string sql = @"SELECT 
                                 IdCliente,
-                                Nombres,
+                                NombreUsuario,
                                 ApellidoPaterno,
                                 ApellidoMaterno,
                                 Telefono,
@@ -35,7 +35,7 @@ namespace TiendadeCalzados.Data.Repositories
                         Cliente cli = new Cliente();
 
                         cli.IdCliente = (int)dr["IdCliente"];
-                        cli.Nombres = dr["Nombres"].ToString();
+                        cli.NombreUsuario = dr["NombreUsuario"].ToString();
                         cli.ApellidoPaterno = dr["ApellidoPaterno"].ToString();
                         cli.ApellidoMaterno = dr["ApellidoMaterno"].ToString();
                         cli.Telefono = dr["Telefono"].ToString();

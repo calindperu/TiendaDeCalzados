@@ -1,35 +1,131 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
+using TiendadeCalzados.Business.Services;
+using TiendadeCalzados.Entities;
 
-namespace TiendaDeCalzados
+namespace TiendadeCalzados.Presentation
 {
     public partial class FormReportes : Form
     {
+        private ReporteService reporteService;
+
         public FormReportes()
         {
             InitializeComponent();
+            reporteService = new ReporteService();
+            ConfigurarGrid();
         }
 
-        private void FormDetalleVentas_Load(object sender, EventArgs e)
+        private void ConfigurarGrid()
         {
-            // Crear columnas MANUALMENTE
-            dgvReportes.Columns.Add("IdReporte", "IdReporte");
-            dgvReportes.Columns.Add("TipoReporte", "TipoReporte");
-            dgvReportes.Columns.Add("FechaGeneracion", "FechaGeneracion");
-            dgvReportes.Columns.Add("Detalle", "Detalle");
-            dgvReportes.Columns.Add("IdUsuario", "IdUsuario");
+            dgvReporteVentas.AutoGenerateColumns = false;
+            dgvReporteVentas.Columns.Clear();
 
-            // Agregar filas manuales (simulando datos)
-            dgvReportes.Rows.Add(1, "Reporte de Ventas", "2025-11-16", "Detalle del reporte 1", 3);
-            dgvReportes.Rows.Add(2, "Reporte de Productos", "2025-11-15", "Detalle del reporte 2", 2);
-            dgvReportes.Rows.Add(3, "Reporte de Usuarios", "2025-11-14", "Detalle del reporte 3", 1);
+            dgvReporteVentas.Columns.Add(new DataGridViewTextBoxColumn()
+            {
+                DataPropertyName = "IdVenta",
+                HeaderText = "ID Venta",
+                Width = 50
+            });
+
+            dgvReporteVentas.Columns.Add(new DataGridViewTextBoxColumn()
+            {
+                DataPropertyName = "FechaVenta",
+                HeaderText = "Fecha",
+                Width = 100
+            });
+
+            dgvReporteVentas.Columns.Add(new DataGridViewTextBoxColumn()
+            {
+                DataPropertyName = "NombreUsuario",
+                HeaderText = "Nombres",
+                Width = 120
+            });
+
+            dgvReporteVentas.Columns.Add(new DataGridViewTextBoxColumn()
+            {
+                DataPropertyName = "Apellidos",
+                HeaderText = "Apellidos",
+                Width = 120
+            });
+
+            // AGREGADOS
+            dgvReporteVentas.Columns.Add(new DataGridViewTextBoxColumn()
+            {
+                DataPropertyName = "NombreProducto",
+                HeaderText = "Nombre Producto",
+                Width = 200
+            });
+
+            dgvReporteVentas.Columns.Add(new DataGridViewTextBoxColumn()
+            {
+                DataPropertyName = "Marca",
+                HeaderText = "Marca Producto",
+                Width = 80
+             });
+
+            dgvReporteVentas.Columns.Add(new DataGridViewTextBoxColumn()
+            {
+                DataPropertyName = "Talla",
+                HeaderText = "Talla Producto",
+                Width = 50
+            });
+
+            dgvReporteVentas.Columns.Add(new DataGridViewTextBoxColumn()
+            {
+                DataPropertyName = "Cantidad",
+                HeaderText = "Cantidad Producto",
+                Width = 60
+            });
+
+            dgvReporteVentas.Columns.Add(new DataGridViewTextBoxColumn()
+            {
+                DataPropertyName = "PrecioUnitario",
+                HeaderText = "Precio Producto",
+                Width = 80
+            });
+
+            dgvReporteVentas.Columns.Add(new DataGridViewTextBoxColumn()
+            {
+                DataPropertyName = "SubTotal",
+                HeaderText = "SubTotal Producto",
+                Width = 80
+            });
+
+
+            dgvReporteVentas.Columns.Add(new DataGridViewTextBoxColumn()
+            {
+                DataPropertyName = "TotalVenta",
+                HeaderText = "Total Venta",
+                Width = 80,
+                DefaultCellStyle = { Format = "C2" }
+            });
+        }
+
+        private void btnBuscarReporte_Click(object sender, EventArgs e)
+        {
+            if (dtpFechaInicio.Value.Date > dtpFechaFin.Value.Date)
+            {
+                MessageBox.Show("La fecha inicial no puede ser mayor a la fecha final", "Validación", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                return;
+            }
+
+
+            List<DetalleReporteVenta> listaDetalle = reporteService.ListarReporteDetalleVentas(dtpFechaInicio.Value.Date, dtpFechaFin.Value.Date);
+
+            dgvReporteVentas.AutoGenerateColumns = true;
+            dgvReporteVentas.DataSource = listaDetalle;
+
+            // Calcular total general por venta (evitando duplicados por detalle)
+            decimal totalGeneral = listaDetalle
+                .GroupBy(d => d.IdVenta)
+                .Select(g => g.First().TotalVenta)
+                .Sum();
+
+            lblTotalVentas.Text = "TOTAL VENTAS: S/ " + totalGeneral.ToString("0.00");
         }
     }
 }
+

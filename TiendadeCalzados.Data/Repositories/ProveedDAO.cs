@@ -17,11 +17,12 @@ namespace TiendadeCalzados.Data.Repositories
                 string sql = @"
                     SELECT 
                         IdProveedor,
-                        RazonSocial,
                         RUC,
+                        RazonSocial,
                         Telefono,
                         Correo,
                         Direccion,
+                        Estado,
                         FechaIngreso
                     FROM Proveedores";
 
@@ -35,11 +36,15 @@ namespace TiendadeCalzados.Data.Repositories
                         Proveedor prov = new Proveedor
                         {
                             IdProveedor = Convert.ToInt32(dr["IdProveedor"]),
-                            RazonSocial = dr["RazonSocial"].ToString(),
                             RUC = dr["RUC"].ToString(),
+                            RazonSocial = dr["RazonSocial"].ToString(),
                             Telefono = dr["Telefono"].ToString(),
                             Correo = dr["Correo"].ToString(),
                             Direccion = dr["Direccion"].ToString(),
+
+                            // Si Estado es BIT en SQL Server
+                            Estado = Convert.ToBoolean(dr["Estado"]),
+
                             FechaIngreso = Convert.ToDateTime(dr["FechaIngreso"])
                         };
 
@@ -52,3 +57,4 @@ namespace TiendadeCalzados.Data.Repositories
         }
     }
 }
+

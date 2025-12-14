@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using TiendadeCalzados.Presentation;
 
 namespace TiendaDeCalzados
 {
@@ -16,14 +17,13 @@ namespace TiendaDeCalzados
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            /* Application.Run(new FormProductos()); 
-               Application.Run(new FormVentas());            
-               Application.Run(new FormDetalleVentas());
-                Application.Run(new FormLogin());
-                Application.Run(new Form1());
-                Application.Run(new FormLogin());
-            */
-           // Application.Run(new Form1());
+            //Application.Run(new FormProductos()); 
+            //Application.Run(new FormVentas());  
+            //Application.Run(new Form1());
+            //Application.Run(new FormUsuarios());
+            //plication.Run(new FormDetalleVentas());
+            //Aplication.Run(new FormInicio());
+
             Application.Run(new FormLogin());
 
 

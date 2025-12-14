@@ -10,12 +10,12 @@ namespace TiendadeCalzados.Business.Services
     public class LoginService
     {
         //private readonly LoginDAO loginDAO;
-        private readonly LoginDAO usuarioDAO;
+        private readonly LoginDAO loginDAO;
 
         // Creamos el Constructor para inicializar un dato o variable
         public LoginService()
         {
-            usuarioDAO = new LoginDAO();
+            loginDAO = new LoginDAO();
         }
 
         // creamos el medotodo de la ejecucion
@@ -30,14 +30,14 @@ namespace TiendadeCalzados.Business.Services
                 throw new Exception("Debe ingresar su clave de accceso");
             }
 
-            Usuario nombreusuario = usuarioDAO.Login(NombreUsuario, Clave);
+            Usuario usuario = loginDAO.Login(NombreUsuario, Clave);
 
-            if (NombreUsuario == null)
+            if (usuario == null)
             {
                 throw new Exception("Usuario o Clave son incorrectos");
             }
 
-            return nombreusuario;
+            return usuario;
         }
     }
 }
