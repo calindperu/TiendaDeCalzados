@@ -1,9 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 using System.Windows.Forms;
-using TiendadeCalzados.Presentation;
 
 namespace TiendaDeCalzados
 {
@@ -23,9 +19,8 @@ namespace TiendaDeCalzados
             //Application.Run(new FormUsuarios());
             //plication.Run(new FormDetalleVentas());
             //Aplication.Run(new FormInicio());
-
-            Application.Run(new FormLogin());
-
+            //Application.Run(new FormLogin());
+            Application.Run(new FormReporteClienteProductos());
 
         }
     }

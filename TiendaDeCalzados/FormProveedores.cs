@@ -12,7 +12,7 @@ namespace TiendaDeCalzados
     {
         // CADENA DE CONEXIÓN
         //string cad_conexion = "Server=Localhost\\SQLEXPRESS;Database=TIENDACALZADOS;User Id=sa;Password=carlos$18;Trusted_Connection=True";
-        string cad_conexion = "Server=Localhost\\SLQEXPRESS;Database=TIENDACALZADOS;Trusted_Connection=True";       
+        string cad_conexion = "Server=Localhost\\SLQEXPRESS;Database=TIENDACALZADOS;Trusted_Connection=True";
         //string cad_conexion = "Server=Localhost\\SQLEXPRESS;Database=TIENDACALZADOS;User Id=sa;Password=carlos$18;";
 
         int IdSeleccionado = 0;
@@ -38,7 +38,7 @@ namespace TiendaDeCalzados
         }
 
 
-                private void btnListar_Click(object sender, EventArgs e)
+        private void btnListar_Click(object sender, EventArgs e)
         {
             Listar();
         }
@@ -191,7 +191,7 @@ namespace TiendaDeCalzados
 
         private void btnActualizar_Click(object sender, EventArgs e)
         {
-          
+
             Modificar();
             Listar();
         }
@@ -205,7 +205,7 @@ namespace TiendaDeCalzados
         {
             Eliminar();
             Listar();
- 
+
         }
 
         private void btnAgregar_Click(object sender, EventArgs e)

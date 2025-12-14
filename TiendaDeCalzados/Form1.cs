@@ -50,7 +50,7 @@ namespace TiendaDeCalzados
 
             {
                 //string query = "INSERT INTO Usuarios (Usuario, Clave, NombreCompleto, Correo, IdRol, Estado, FechaRegistro) VALUES (@Usuario, @Clave, @NombreCompleto, @Correo, @IdRol, @Estado, @FechaRegistro)";
-                string query =  "INSERT INTO Usuarios (Usuario, Clave, NombreCompleto, Correo, IdRol, Estado, FechaRegistro) " +
+                string query = "INSERT INTO Usuarios (Usuario, Clave, NombreCompleto, Correo, IdRol, Estado, FechaRegistro) " +
                                 "VALUES (@Usuario, @Clave, @NombreCompleto, @Correo, @IdRol, @Estado, @FechaRegistro)";
 
                 SqlCommand cmd = new SqlCommand(query, conn);
@@ -92,7 +92,7 @@ namespace TiendaDeCalzados
         }
 
 
-       private void btnActualizar_Click(object sender, EventArgs e)
+        private void btnActualizar_Click(object sender, EventArgs e)
         {
             if (IdSeleccionado == 0) return;
 
@@ -116,7 +116,7 @@ namespace TiendaDeCalzados
                 //cmd.Parameters.AddWithValue("@IdRol", txtIdRol.Text.Trim());
                 //cmd.Parameters.AddWithValue("@Estado", txtEstado.Text.Trim());         
 
-               
+
                 int idRol;
                 if (!int.TryParse(txtIdRol.Text, out idRol))
                 {
@@ -124,7 +124,7 @@ namespace TiendaDeCalzados
                     return;
                 }
                 cmd.Parameters.Add("@IdRol", SqlDbType.Int).Value = idRol;
-                
+
                 bool estado = (txtEstado.Text == "1" || txtEstado.Text.ToLower() == "true");
                 cmd.Parameters.Add("@Estado", SqlDbType.Bit).Value = estado;
 
@@ -179,7 +179,7 @@ namespace TiendaDeCalzados
                 txtCorreo.Text = fila.Cells["Correo"].Value.ToString();
                 txtIdRol.Text = fila.Cells["IdRol"].Value.ToString();
                 txtEstado.Text = fila.Cells["Estado"].Value.ToString();
-                
+
                 //txtFechaRegistro.Text = fila.Cells["FechaRegistro"].Value.ToString();
             }
         }

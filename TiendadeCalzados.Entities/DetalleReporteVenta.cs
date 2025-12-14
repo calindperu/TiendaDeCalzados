@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace TiendadeCalzados.Entities
 {
@@ -20,7 +16,7 @@ namespace TiendadeCalzados.Entities
         public decimal PrecioUnitario { get; set; }
         public decimal SubTotal { get; set; }
 
-      
+
         public decimal TotalVenta { get; set; }
 
     }

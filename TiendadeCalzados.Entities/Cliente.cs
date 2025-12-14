@@ -4,7 +4,7 @@ namespace TiendadeCalzados.Entities
 {
     public class Cliente
     {
- 
+
         public int IdCliente { get; set; }
         public string NombreUsuario { get; set; }
         public string ApellidoPaterno { get; set; }

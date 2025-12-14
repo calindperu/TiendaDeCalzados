@@ -1,9 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Data.SqlClient;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using TiendadeCalzados.Entities;
 
 namespace TiendadeCalzados.Data.Repositories
@@ -63,5 +60,5 @@ namespace TiendadeCalzados.Data.Repositories
             }
             return lista;
         }
-}
+    }
 }

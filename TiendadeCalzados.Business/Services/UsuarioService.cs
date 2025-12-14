@@ -1,5 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using TiendadeCalzados.Data.Repositories;
 using TiendadeCalzados.Entities;
 
@@ -16,7 +15,7 @@ namespace TiendadeCalzados.Business.Services
             usuariosDAO = new UsuariosDAO();
         }
 
-        public List<Usuario> ListarUsuarios(int IdUsuario) 
+        public List<Usuario> ListarUsuarios(int IdUsuario)
         {
             return usuariosDAO.ListarUsuarios(IdUsuario);
         }

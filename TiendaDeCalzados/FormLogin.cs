@@ -1,8 +1,7 @@
 ﻿using System;
 using System.Windows.Forms;
-using TiendadeCalzados.Entities;
 using TiendadeCalzados.Business.Services;
-using System.Linq.Expressions;
+using TiendadeCalzados.Entities;
 
 
 namespace TiendaDeCalzados
@@ -37,13 +36,13 @@ namespace TiendaDeCalzados
                 formInicio.Show();
                 this.Hide();
             }
-            catch (Exception ex) 
+            catch (Exception ex)
             {
                 MessageBox.Show(ex.Message, "Error de Acceso:", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
-                        
+
 
         }
-     
+
     }
 }

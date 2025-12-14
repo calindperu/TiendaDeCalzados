@@ -64,7 +64,7 @@ namespace TiendadeCalzados.Presentation
                 DataPropertyName = "Marca",
                 HeaderText = "Marca Producto",
                 Width = 80
-             });
+            });
 
             dgvReporteVentas.Columns.Add(new DataGridViewTextBoxColumn()
             {

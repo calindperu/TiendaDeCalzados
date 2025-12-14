@@ -1,9 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Data.SqlClient;
 using System.Windows.Forms;
 using TiendadeCalzados.Business.Services;
-using TiendadeCalzados.Entities;
 using TiendadeCalzados.Presentation;   // 👈 IMPORTANTE
 
 namespace TiendaDeCalzados
@@ -21,7 +18,7 @@ namespace TiendaDeCalzados
         private void FormVentas_Load(object sender, EventArgs e)
         {
             ConfigurarGrid();
-            CargarVentas();           
+            CargarVentas();
 
         }
 
@@ -46,17 +43,17 @@ namespace TiendaDeCalzados
 
             dgvVentas.Columns.Add("TotalVenta", "Total Venta");
             dgvVentas.Columns["TotalVenta"].DataPropertyName = "TotalVenta";
-        
+
         }
 
-          
+
 
         // ========================= CARGAR VENTAS =========================
         private void CargarVentas()
         {
             dgvVentas.DataSource = null;
             dgvVentas.DataSource = ventaService.ListarVentas();
-            
+
         }
 
         // ========================= VER DETALLE =========================

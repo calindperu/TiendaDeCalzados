@@ -4,7 +4,7 @@ namespace TiendadeCalzados.Entities
 {
     public class Proveedor
     {
-             
+
         //public Proveedor IdProveedor { get; set; }
         public int IdProveedor { get; set; }
         public string RUC { get; set; }

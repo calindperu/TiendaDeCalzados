@@ -1,0 +1,6 @@
+C:\Users\Sistema\source\repos\TiendaDeCalzados\TiendadeCalzados.Dto\bin\Debug\TiendadeCalzados.Dto.dll
+C:\Users\Sistema\source\repos\TiendaDeCalzados\TiendadeCalzados.Dto\bin\Debug\TiendadeCalzados.Dto.pdb
+C:\Users\Sistema\source\repos\TiendaDeCalzados\TiendadeCalzados.Dto\obj\Debug\TiendadeCalzados.Dto.csproj.AssemblyReference.cache
+C:\Users\Sistema\source\repos\TiendaDeCalzados\TiendadeCalzados.Dto\obj\Debug\TiendadeCalzados.Dto.csproj.CoreCompileInputs.cache
+C:\Users\Sistema\source\repos\TiendaDeCalzados\TiendadeCalzados.Dto\obj\Debug\TiendadeCalzados.Dto.dll
+C:\Users\Sistema\source\repos\TiendaDeCalzados\TiendadeCalzados.Dto\obj\Debug\TiendadeCalzados.Dto.pdb

@@ -3,8 +3,6 @@ using System.Drawing;
 using System.Windows.Forms;
 using TiendadeCalzados.Entities;
 using TiendadeCalzados.Presentation;
-using System.Collections.Generic;
-using TiendadeCalzados.Business.Services;
 
 
 namespace TiendaDeCalzados
@@ -16,47 +14,48 @@ namespace TiendaDeCalzados
             InitializeComponent();
         }
 
-        private void FormInicio_Load(object sender, EventArgs e) 
+        private void FormInicio_Load(object sender, EventArgs e)
         {
             AbrirFormEnPanel(new FormBienvenida());
             CargarRoles();
         }
 
         private void AbrirFormEnPanel(Form formHijo)
-        { 
-            if (pnlContenedor.Controls.Count > 0) 
-            
+        {
+            if (pnlContenedor.Controls.Count > 0)
+
             {
                 pnlContenedor.Controls.RemoveAt(0);
             }
-                formHijo.TopLevel = false;
-                formHijo.WindowState = FormWindowState.Maximized;
-                formHijo.FormBorderStyle = FormBorderStyle.None;
-                formHijo.Dock = DockStyle.Fill;
-                pnlContenedor.Controls.Add(formHijo);
-                formHijo.Show();
+            formHijo.TopLevel = false;
+            formHijo.WindowState = FormWindowState.Maximized;
+            formHijo.FormBorderStyle = FormBorderStyle.None;
+            formHijo.Dock = DockStyle.Fill;
+            pnlContenedor.Controls.Add(formHijo);
+            formHijo.Show();
         }
 
-        private void CargarRoles() {
+        private void CargarRoles()
+        {
             Usuario Usuario = SesionActual.UsuarioLogueado;
 
             // Rol Administrador
-            if (Usuario.IdRol == 1) 
-            { 
-               btnClientes.Enabled = true;
-               btnProductos.Enabled = true;
-               btnVentas.Enabled = true;
-               btnDetalleVentas.Enabled = true;
-               btnProveedores.Enabled = true;
-               btnReportes.Enabled = true;
-               btnUsuarios.Enabled = true;              
+            if (Usuario.IdRol == 1)
+            {
+                btnClientes.Enabled = true;
+                btnProductos.Enabled = true;
+                btnVentas.Enabled = true;
+                btnDetalleVentas.Enabled = true;
+                btnProveedores.Enabled = true;
+                btnReportes.Enabled = true;
+                btnUsuarios.Enabled = true;
 
             }
 
             // Rol Vendedor
             if (Usuario.IdRol == 2)
             {
-                btnClientes.BackColor = Color.LightGray;             
+                btnClientes.BackColor = Color.LightGray;
                 btnProductos.BackColor = Color.LightGray;
 
                 btnVentas.Enabled = true;
@@ -111,7 +110,7 @@ namespace TiendaDeCalzados
 
         }
 
-       private void btnClientes_Click_1(object sender, EventArgs e)
+        private void btnClientes_Click_1(object sender, EventArgs e)
         {
             AbrirFormEnPanel(new FormClientes());
         }
@@ -136,7 +135,7 @@ namespace TiendaDeCalzados
             AbrirFormEnPanel(new FormUsuarios());
         }
 
-                private void btnReportes_Click(object sender, EventArgs e)
+        private void btnReportes_Click(object sender, EventArgs e)
         {
             AbrirFormEnPanel(new FormReportes());
         }

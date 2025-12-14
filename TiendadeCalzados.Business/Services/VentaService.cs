@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
-using TiendadeCalzados.Entities;
 using TiendadeCalzados.Data.Repositories;
+using TiendadeCalzados.Entities;
 
 
 namespace TiendadeCalzados.Business.Services

@@ -13,7 +13,7 @@ namespace TiendaDeCalzados
     {
         // CADENA DE CONEXIÓN
         //string cad_conexion = "Server=Localhost\\SQLEXPRESS;Database=TIENDACALZADOS;User Id=sa;Password=carlos$18;Trusted_Connection=True";
-         string cad_conexion = "Server=Localhost\\SLQEXPRESS;Database=TIENDACALZADOS;Trusted_Connection=True";       
+        string cad_conexion = "Server=Localhost\\SLQEXPRESS;Database=TIENDACALZADOS;Trusted_Connection=True";
         //string cad_conexion = "Server=Localhost\\SQLEXPRESS;Database=TIENDACALZADOS;User Id=sa;Password=carlos$18;";
         int IdSeleccionado = 0;
 
@@ -154,7 +154,7 @@ namespace TiendaDeCalzados
             }
         }
 
-          
+
 
         private void bntActualizar_Click(object sender, EventArgs e)
         {

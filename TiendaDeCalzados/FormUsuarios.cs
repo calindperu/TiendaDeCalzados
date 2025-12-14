@@ -1,10 +1,10 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Data;
+using System.Data.SqlClient;
 using System.Windows.Forms;
 using TiendadeCalzados.Business.Services;
 using TiendadeCalzados.Entities;
-using System.Data;
-using System.Data.SqlClient;
-using System.Collections.Generic;
 
 
 namespace TiendaDeCalzados
@@ -162,7 +162,7 @@ namespace TiendaDeCalzados
                 cmd.Parameters.AddWithValue("@IdRol", idRol);
                 cmd.Parameters.AddWithValue("@Estado", estado);
                 cmd.Parameters.AddWithValue("@FechaRegistro", DateTime.Now);
-               
+
 
                 // -----------------------------
                 // EJECUTAR UPDATE
@@ -173,7 +173,7 @@ namespace TiendaDeCalzados
             }
         }
 
-    
+
 
         private void Eliminar()
         {
@@ -247,4 +247,3 @@ namespace TiendaDeCalzados
 
 }
 
- 

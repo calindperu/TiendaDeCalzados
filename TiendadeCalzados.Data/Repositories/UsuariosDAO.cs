@@ -84,7 +84,7 @@ namespace TiendadeCalzados.Data.Repositories
                                 FechaRegistro = dr["FechaRegistro"] != DBNull.Value
                                 ? Convert.ToDateTime(dr["FechaRegistro"])
                                 : DateTime.MinValue,
-                                                               
+
                             };
 
                             usuarios.Add(usuario);

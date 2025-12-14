@@ -1,12 +1,9 @@
-﻿using System;
-
-
-namespace TiendadeCalzados.Entities
+﻿namespace TiendadeCalzados.Entities
 {
     public class DetalleVenta
     {
 
-       // public int IdDetalleVenta { get; set; }
+        // public int IdDetalleVenta { get; set; }
 
         public int IdDetalle { get; set; }
         public int IdVenta { get; set; }
@@ -19,6 +16,6 @@ namespace TiendadeCalzados.Entities
         public string NombreProducto { get; set; }
         public string Marca { get; set; }
         public string Talla { get; set; }
- 
+
     }
 }
