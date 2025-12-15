@@ -19,7 +19,7 @@ namespace TiendaDeCalzados
 
         */
 
-        string connectionString = "Server=Localhost\\SQLEXPRESS;Database=TIENDACALZADOS;User Id=sa;Password=carlos$18;Trusted_Connection=True";
+        string connectionString = "Server=Localhost\\SLQEXPRESS;Database=TIENDACALZADOS;Trusted_Connection=True";
         int IdSeleccionado = 0;
 
         public Form1()

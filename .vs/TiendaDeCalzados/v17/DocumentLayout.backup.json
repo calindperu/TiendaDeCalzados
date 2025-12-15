@@ -3,24 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\Sistema\\source\\repos\\TiendaDeCalzados\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B7A13208-D2AC-45A7-9140-763F508E7057}|TiendaDeCalzados\\TiendaDeCalzados.Presentation.csproj|c:\\users\\sistema\\source\\repos\\tiendadecalzados\\tiendadecalzados\\reportes.rdlc||{46F6D2A1-5E86-4080-A799-01F3D0E23796}",
-      "RelativeMoniker": "D:0:0:{B7A13208-D2AC-45A7-9140-763F508E7057}|TiendaDeCalzados\\TiendaDeCalzados.Presentation.csproj|solutionrelative:tiendadecalzados\\reportes.rdlc||{46F6D2A1-5E86-4080-A799-01F3D0E23796}"
+      "AbsoluteMoniker": "D:0:0:{324DBD7E-34A9-4884-8395-C49158DCABAC}|TiendadeCalzados.Business\\TiendadeCalzados.Business.csproj|c:\\users\\sistema\\source\\repos\\tiendadecalzados\\tiendadecalzados.business\\services\\detalleventaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{324DBD7E-34A9-4884-8395-C49158DCABAC}|TiendadeCalzados.Business\\TiendadeCalzados.Business.csproj|solutionrelative:tiendadecalzados.business\\services\\detalleventaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B7A13208-D2AC-45A7-9140-763F508E7057}|TiendaDeCalzados\\TiendaDeCalzados.Presentation.csproj|C:\\Users\\Sistema\\source\\repos\\TiendaDeCalzados\\tiendadecalzados\\formreporteclienteproductos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B7A13208-D2AC-45A7-9140-763F508E7057}|TiendaDeCalzados\\TiendaDeCalzados.Presentation.csproj|solutionrelative:tiendadecalzados\\formreporteclienteproductos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B7A13208-D2AC-45A7-9140-763F508E7057}|TiendaDeCalzados\\TiendaDeCalzados.Presentation.csproj|C:\\Users\\Sistema\\source\\repos\\TiendaDeCalzados\\tiendadecalzados\\formdetalleventas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B7A13208-D2AC-45A7-9140-763F508E7057}|TiendaDeCalzados\\TiendaDeCalzados.Presentation.csproj|solutionrelative:tiendadecalzados\\formdetalleventas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B7A13208-D2AC-45A7-9140-763F508E7057}|TiendaDeCalzados\\TiendaDeCalzados.Presentation.csproj|C:\\Users\\Sistema\\source\\repos\\TiendaDeCalzados\\tiendadecalzados\\formreporteclienteproductos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{B7A13208-D2AC-45A7-9140-763F508E7057}|TiendaDeCalzados\\TiendaDeCalzados.Presentation.csproj|solutionrelative:tiendadecalzados\\formreporteclienteproductos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{613AD48B-BC69-403D-9938-96F6F6395601}|TiendadeCalzados.Dto\\TiendadeCalzados.Dto.csproj|C:\\Users\\Sistema\\source\\repos\\TiendaDeCalzados\\tiendadecalzados.dto\\reporteclienteproductosdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{613AD48B-BC69-403D-9938-96F6F6395601}|TiendadeCalzados.Dto\\TiendadeCalzados.Dto.csproj|solutionrelative:tiendadecalzados.dto\\reporteclienteproductosdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{613AD48B-BC69-403D-9938-96F6F6395601}|TiendadeCalzados.Dto\\TiendadeCalzados.Dto.csproj|C:\\Users\\Sistema\\source\\repos\\TiendaDeCalzados\\tiendadecalzados.dto\\reportes.rdlc||{46F6D2A1-5E86-4080-A799-01F3D0E23796}",
-      "RelativeMoniker": "D:0:0:{613AD48B-BC69-403D-9938-96F6F6395601}|TiendadeCalzados.Dto\\TiendadeCalzados.Dto.csproj|solutionrelative:tiendadecalzados.dto\\reportes.rdlc||{46F6D2A1-5E86-4080-A799-01F3D0E23796}"
+      "AbsoluteMoniker": "D:0:0:{B7A13208-D2AC-45A7-9140-763F508E7057}|TiendaDeCalzados\\TiendaDeCalzados.Presentation.csproj|c:\\users\\sistema\\source\\repos\\tiendadecalzados\\tiendadecalzados\\formdetalleventas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B7A13208-D2AC-45A7-9140-763F508E7057}|TiendaDeCalzados\\TiendaDeCalzados.Presentation.csproj|solutionrelative:tiendadecalzados\\formdetalleventas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -38,64 +30,40 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "FormReporteClienteProductos.cs",
-              "DocumentMoniker": "C:\\Users\\Sistema\\source\\repos\\TiendaDeCalzados\\TiendaDeCalzados\\FormReporteClienteProductos.cs",
-              "RelativeDocumentMoniker": "TiendaDeCalzados\\FormReporteClienteProductos.cs",
-              "ToolTip": "C:\\Users\\Sistema\\source\\repos\\TiendaDeCalzados\\TiendaDeCalzados\\FormReporteClienteProductos.cs",
-              "RelativeToolTip": "TiendaDeCalzados\\FormReporteClienteProductos.cs",
-              "ViewState": "AgIAAC0AAAAAAAAAAAAowDwAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "DetalleVentaService.cs",
+              "DocumentMoniker": "C:\\Users\\Sistema\\source\\repos\\TiendaDeCalzados\\TiendadeCalzados.Business\\Services\\DetalleVentaService.cs",
+              "RelativeDocumentMoniker": "TiendadeCalzados.Business\\Services\\DetalleVentaService.cs",
+              "ToolTip": "C:\\Users\\Sistema\\source\\repos\\TiendaDeCalzados\\TiendadeCalzados.Business\\Services\\DetalleVentaService.cs",
+              "RelativeToolTip": "TiendadeCalzados.Business\\Services\\DetalleVentaService.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-14T15:49:07.456Z",
+              "WhenOpened": "2025-12-15T00:59:09.074Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FormDetalleVentas.cs",
+              "DocumentMoniker": "C:\\Users\\Sistema\\source\\repos\\TiendaDeCalzados\\TiendaDeCalzados\\FormDetalleVentas.cs",
+              "RelativeDocumentMoniker": "TiendaDeCalzados\\FormDetalleVentas.cs",
+              "ToolTip": "C:\\Users\\Sistema\\source\\repos\\TiendaDeCalzados\\TiendaDeCalzados\\FormDetalleVentas.cs",
+              "RelativeToolTip": "TiendaDeCalzados\\FormDetalleVentas.cs",
+              "ViewState": "AgIAALEAAAAAAAAAAAAcwMAAAAB+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-15T00:01:35.506Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "FormReporteClienteProductos.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Sistema\\source\\repos\\TiendaDeCalzados\\TiendaDeCalzados\\FormReporteClienteProductos.cs",
-              "RelativeDocumentMoniker": "TiendaDeCalzados\\FormReporteClienteProductos.cs",
-              "ToolTip": "C:\\Users\\Sistema\\source\\repos\\TiendaDeCalzados\\TiendaDeCalzados\\FormReporteClienteProductos.cs [Dise\u00F1o]",
-              "RelativeToolTip": "TiendaDeCalzados\\FormReporteClienteProductos.cs [Dise\u00F1o]",
+              "Title": "FormDetalleVentas.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Sistema\\source\\repos\\TiendaDeCalzados\\TiendaDeCalzados\\FormDetalleVentas.cs",
+              "RelativeDocumentMoniker": "TiendaDeCalzados\\FormDetalleVentas.cs",
+              "ToolTip": "C:\\Users\\Sistema\\source\\repos\\TiendaDeCalzados\\TiendaDeCalzados\\FormDetalleVentas.cs [Dise\u00F1o]",
+              "RelativeToolTip": "TiendaDeCalzados\\FormDetalleVentas.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-14T15:24:18.811Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Reportes.rdlc [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Sistema\\source\\repos\\TiendaDeCalzados\\TiendaDeCalzados\\Reportes.rdlc",
-              "RelativeDocumentMoniker": "TiendaDeCalzados\\Reportes.rdlc",
-              "ToolTip": "C:\\Users\\Sistema\\source\\repos\\TiendaDeCalzados\\TiendaDeCalzados\\Reportes.rdlc [Dise\u00F1o]",
-              "RelativeToolTip": "TiendaDeCalzados\\Reportes.rdlc [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001755|",
-              "WhenOpened": "2025-12-14T14:31:46.168Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ReporteClienteProductosDto.cs",
-              "DocumentMoniker": "C:\\Users\\Sistema\\source\\repos\\TiendaDeCalzados\\TiendadeCalzados.Dto\\ReporteClienteProductosDto.cs",
-              "RelativeDocumentMoniker": "TiendadeCalzados.Dto\\ReporteClienteProductosDto.cs",
-              "ToolTip": "C:\\Users\\Sistema\\source\\repos\\TiendaDeCalzados\\TiendadeCalzados.Dto\\ReporteClienteProductosDto.cs",
-              "RelativeToolTip": "TiendadeCalzados.Dto\\ReporteClienteProductosDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAIAAAArAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-14T14:26:41.094Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Reportes.rdlc [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Sistema\\source\\repos\\TiendaDeCalzados\\TiendadeCalzados.Dto\\Reportes.rdlc",
-              "RelativeDocumentMoniker": "TiendadeCalzados.Dto\\Reportes.rdlc",
-              "ToolTip": "C:\\Users\\Sistema\\source\\repos\\TiendaDeCalzados\\TiendadeCalzados.Dto\\Reportes.rdlc [Dise\u00F1o]",
-              "RelativeToolTip": "TiendadeCalzados.Dto\\Reportes.rdlc [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001755|",
-              "WhenOpened": "2025-12-14T14:07:21.077Z",
+              "WhenOpened": "2025-12-15T00:01:32.23Z",
               "EditorCaption": " [Dise\u00F1o]"
             }
           ]

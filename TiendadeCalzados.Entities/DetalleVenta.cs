@@ -17,5 +17,6 @@
         public string Marca { get; set; }
         public string Talla { get; set; }
 
-    }
+  
+}
 }

@@ -45,7 +45,8 @@ namespace TiendaDeCalzados
                 btnClientes.Enabled = true;
                 btnProductos.Enabled = true;
                 btnVentas.Enabled = true;
-                btnDetalleVentas.Enabled = true;
+                //btnDetalleVentas.Enabled = false;
+                btnDetalleVentas.BackColor = Color.LightGray;
                 btnProveedores.Enabled = true;
                 btnReportes.Enabled = true;
                 btnUsuarios.Enabled = true;
@@ -59,7 +60,7 @@ namespace TiendaDeCalzados
                 btnProductos.BackColor = Color.LightGray;
 
                 btnVentas.Enabled = true;
-                btnDetalleVentas.Enabled = true;
+                btnDetalleVentas.BackColor = Color.LightGray;
 
                 btnProveedores.BackColor = Color.LightGray;
                 btnReportes.BackColor = Color.LightGray;
@@ -72,7 +73,7 @@ namespace TiendaDeCalzados
             {
                 btnClientes.BackColor = Color.LightGray;
                 btnVentas.BackColor = Color.LightGray;
-                btnDetalleVentas.BackColor = Color.LightGray;
+                btnDetalleVentas.BackColor = Color.LightGray;                
                 btnProveedores.BackColor = Color.LightGray;
 
                 btnProductos.Enabled = true;

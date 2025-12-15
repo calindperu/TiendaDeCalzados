@@ -44,8 +44,5 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ReporteClienteProductosDto.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <EmbeddedResource Include="Reportes.rdlc" />
-  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

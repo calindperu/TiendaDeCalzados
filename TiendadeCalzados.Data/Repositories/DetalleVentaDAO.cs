@@ -1,5 +1,6 @@
 ﻿using System.Collections.Generic;
 using System.Data.SqlClient;
+using System.Reflection;
 using TiendadeCalzados.Entities;
 
 namespace TiendadeCalzados.Data.Repositories
@@ -67,6 +68,7 @@ namespace TiendadeCalzados.Data.Repositories
 
             return lista;
         }
+
 
         // ELIMINAR DETALLE
         public void Eliminar(int idDetalle)
