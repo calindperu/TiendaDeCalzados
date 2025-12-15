@@ -135,6 +135,7 @@ namespace TiendaDeCalzados
                 cmd.Parameters.AddWithValue("@Marca", txtMarca.Text.Trim());
                 cmd.Parameters.AddWithValue("@Talla", txtTalla.Text.Trim());
                 cmd.Parameters.AddWithValue("@PrecioCompra", txtPrecioCompra.Text.Trim());
+                cmd.Parameters.AddWithValue("@PrecioVenta", txtPrecioVenta.Text.Trim());
                 cmd.Parameters.AddWithValue("@Stock", txtStock.Text.Trim());
                 cmd.Parameters.AddWithValue("@IdProveedor", txtIdProveedor.Text.Trim());
                 cmd.Parameters.AddWithValue("@FechaRegistro", DateTime.Now);
